@@ -142,7 +142,7 @@ void I2SComponent::setup() {
                              .dma_buf_len = this->dma_buf_len_,
                              .use_apll = this->use_apll_,
                              .tx_desc_auto_clear = false,
-                             .fixed_mclk = 0;
+                             .fixed_mclk = 0,
                              .bits_per_chan = i2s_bits_per_chan_t(0)};
 
   i2s_pin_config_t i2s_pin_config = {
